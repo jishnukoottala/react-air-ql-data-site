@@ -1,0 +1,143 @@
+body {
+  font-family: sans-serif;
+  margin: 0;
+}
+li a {
+  color: black;
+}
+
+.navigation li:hover {
+  transform: scale(1.1);
+}
+
+.challenge-box {
+  margin-top: 10px;
+  box-shadow: 6px 3px 9px 0px rgba(50, 50, 50, 0.54);
+}
+
+.challenge-box a {
+  text-decoration: none;
+  color: black;
+}
+
+.site_container {
+  padding: 1.3rem;
+}
+.filters {
+  padding: 1.3rem;
+}
+
+.filter-chip {
+  border: 1px solid grey;
+  border-radius: 10px;
+  padding: 7px;
+  display: flex;
+  justify-content: space-between;
+  max-width: 250px;
+  margin-right: 7px;
+}
+
+.site_form_item {
+  padding: 1rem 0;
+}
+
+.site_form_item label {
+  display: block;
+  padding-bottom: 5px;
+  font-size: 1.2rem;
+  font-weight: 400;
+}
+
+.site_form_item select {
+  max-width: 100%;
+  padding: 7px;
+  border-radius: 5px;
+  outline: none;
+}
+
+input[type="date" i] {
+  padding: 7px;
+  border-radius: 5px;
+}
+
+.site_form_item button {
+  padding: 10px;
+  text-transform: uppercase;
+  border-radius: 5px;
+  font-weight: bold;
+  background-color: bisque;
+}
+
+.site_form_item button:hover {
+  transform: scale(1.1);
+}
+
+.site_data {
+  width: 70%;
+}
+.site_form {
+  width: 30%;
+}
+
+.main_footer_area {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.filters {
+  padding: 1.3rem;
+  display: flex;
+  flex-direction: row;
+}
+
+@media only screen and (max-width: 600px) {
+  .site_container {
+    flex-direction: column;
+  }
+  .site_container div {
+    width: 100%;
+  }
+  .filters {
+    flex-direction: column;
+  }
+  .filter-chip {
+    max-width: 100%;
+  }
+}
+
+.button_area {
+  display: flex;
+}
+
+.button_area button {
+  display: block;
+  padding: 7px;
+  width: 100px;
+  font-weight: 400;
+}
+
+.button_area div {
+  width: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.main_footer_area div {
+  padding: 15px 0;
+}
+.limit_area div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.limit_area div label {
+  padding-right: 10px;
+}
+
+.limit_area div select {
+  padding: 7px;
+  border-radius: 5px;
+}
